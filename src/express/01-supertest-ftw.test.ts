@@ -2,7 +2,7 @@ import express, { Router } from 'express';
 import { describe, expect, it } from 'vitest';
 import request from 'supertest';
 
-describe('Express ', () => {
+describe('Express', () => {
 
     it.skip('Supertest FTW', async () => {
         // given

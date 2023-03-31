@@ -3,7 +3,7 @@ import PromiseRouter from 'express-promise-router';
 import { describe, expect, it } from 'vitest';
 import request from 'supertest';
 
-describe('Express ', () => {
+describe('Express', () => {
 
     it.skip('de base ne gère vraiment pas bien les promesses', async () => {
         const app = express();
