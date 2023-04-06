@@ -8,13 +8,13 @@ describe('Express', () => {
         // given
         const app = express();
         const router = Router();
-        router.post('/rome', async (request, response) => {
+        router.post('/romes', async (request, response) => {
            response.json({ ok: true })
         })
         app.use('/api', router);
 
         // when
-        const response = await request(app).post(`/api/romes`);
+        const response = await request(app).post(`/api/rome`);
 
         // then
         expect(response.ok).toBe(true);
